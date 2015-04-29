@@ -1,0 +1,944 @@
+Apr 23, 2015 3:55:47 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 3:55:47 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 3:55:49 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 3:55:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 3:55:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 3:55:49 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 3:55:49 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2847 ms
+Apr 23, 2015 3:55:50 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 3:55:50 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 3:55:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 3:55:50 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 3:56:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 24,349 ms
+Apr 23, 2015 3:56:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 3:56:14 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 3:56:57 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 43,430 ms
+Apr 23, 2015 3:56:57 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Alfresco\tomcat\webapps\alfresco.war
+Apr 23, 2015 4:01:41 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Alfresco\tomcat\webapps\alfresco.war has finished in 283,969 ms
+Apr 23, 2015 4:01:41 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Alfresco\tomcat\webapps\awe.war
+Apr 23, 2015 4:02:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Alfresco\tomcat\webapps\awe.war has finished in 20,172 ms
+Apr 23, 2015 4:02:02 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive C:\Alfresco\tomcat\webapps\wcmqs.war
+Apr 23, 2015 4:02:31 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive C:\Alfresco\tomcat\webapps\wcmqs.war has finished in 29,586 ms
+Apr 23, 2015 4:02:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 4:02:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 271 ms
+Apr 23, 2015 4:02:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 4:02:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 190 ms
+Apr 23, 2015 4:02:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 4:03:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 48,708 ms
+Apr 23, 2015 4:03:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:03:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:03:20 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:03:20 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 450997 ms
+Apr 23, 2015 4:04:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:04:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:04:16 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:04:16 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 4:08:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 4:08:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 4:08:17 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 4:08:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:08:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:08:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:08:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2962 ms
+Apr 23, 2015 4:08:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 4:08:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 4:08:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 4:08:18 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:08:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 32,479 ms
+Apr 23, 2015 4:08:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 4:08:50 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:09:15 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 24,734 ms
+Apr 23, 2015 4:09:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 4:11:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 141,422 ms
+Apr 23, 2015 4:11:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 4:11:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,770 ms
+Apr 23, 2015 4:11:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 4:11:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 147 ms
+Apr 23, 2015 4:11:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 4:11:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 131 ms
+Apr 23, 2015 4:11:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 4:12:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,275 ms
+Apr 23, 2015 4:12:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 4:12:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,234 ms
+Apr 23, 2015 4:12:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:12:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:12:40 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:12:40 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 262401 ms
+Apr 23, 2015 4:16:08 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:16:08 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:16:08 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:16:08 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 4:23:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 4:23:19 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 4:23:21 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 4:23:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:23:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:23:21 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:23:21 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2745 ms
+Apr 23, 2015 4:23:22 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 4:23:22 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 4:23:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 4:23:22 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:23:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,009 ms
+Apr 23, 2015 4:23:44 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 4:23:44 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:24:02 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,737 ms
+Apr 23, 2015 4:24:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 4:26:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 129,932 ms
+Apr 23, 2015 4:26:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,555 ms
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 157 ms
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 143 ms
+Apr 23, 2015 4:26:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 4:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,432 ms
+Apr 23, 2015 4:26:59 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 4:27:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 16,779 ms
+Apr 23, 2015 4:27:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:27:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:27:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:27:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 233925 ms
+Apr 23, 2015 4:39:45 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:39:45 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:39:45 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:39:45 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 4:42:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 4:42:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 4:42:26 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 4:42:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:42:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:42:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:42:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2771 ms
+Apr 23, 2015 4:42:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 4:42:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 4:42:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 4:42:27 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:42:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 24,897 ms
+Apr 23, 2015 4:42:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 4:42:52 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:43:14 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 22,167 ms
+Apr 23, 2015 4:43:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 4:45:28 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 4:45:28 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 4:45:29 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 4:45:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:45:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:45:29 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:45:30 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2729 ms
+Apr 23, 2015 4:45:30 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 4:45:30 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 4:45:30 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 4:45:30 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:45:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 21,670 ms
+Apr 23, 2015 4:45:52 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 4:45:52 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 4:46:12 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 20,513 ms
+Apr 23, 2015 4:46:12 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 4:48:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 136,109 ms
+Apr 23, 2015 4:48:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 4:48:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,639 ms
+Apr 23, 2015 4:48:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 4:48:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 158 ms
+Apr 23, 2015 4:48:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 4:48:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 158 ms
+Apr 23, 2015 4:48:42 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 4:49:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,816 ms
+Apr 23, 2015 4:49:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 4:49:35 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 19,263 ms
+Apr 23, 2015 4:49:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 4:49:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 4:49:35 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 4:49:35 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 244498 ms
+Apr 23, 2015 5:08:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:08:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:08:12 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:08:12 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 5:10:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 5:10:40 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 5:10:41 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 5:10:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:10:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:10:41 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:10:42 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2769 ms
+Apr 23, 2015 5:10:42 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 5:10:42 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 5:10:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 5:10:42 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:11:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,597 ms
+Apr 23, 2015 5:11:05 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 5:11:05 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:11:24 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,653 ms
+Apr 23, 2015 5:11:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 5:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 132,001 ms
+Apr 23, 2015 5:13:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,359 ms
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 160 ms
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 156 ms
+Apr 23, 2015 5:13:48 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 5:14:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 35,365 ms
+Apr 23, 2015 5:14:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 5:14:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,455 ms
+Apr 23, 2015 5:14:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:14:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:14:41 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:14:41 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 238908 ms
+Apr 23, 2015 5:23:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:23:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:23:27 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:23:27 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 5:28:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 5:28:08 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 5:28:09 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 5:28:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:28:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:28:09 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:28:10 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2785 ms
+Apr 23, 2015 5:28:10 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 5:28:10 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 5:28:10 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 5:28:10 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:28:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 21,958 ms
+Apr 23, 2015 5:28:32 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 5:28:32 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:28:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,532 ms
+Apr 23, 2015 5:28:51 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 5:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 138,342 ms
+Apr 23, 2015 5:31:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,670 ms
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 145 ms
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 255 ms
+Apr 23, 2015 5:31:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 5:31:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,679 ms
+Apr 23, 2015 5:31:56 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 5:32:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 18,674 ms
+Apr 23, 2015 5:32:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:32:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:32:15 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:32:15 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 244446 ms
+Apr 23, 2015 5:37:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:37:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:37:05 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:37:06 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 5:43:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 5:43:27 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 5:43:28 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 5:43:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:43:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:43:28 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:43:29 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2773 ms
+Apr 23, 2015 5:43:29 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 5:43:29 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 5:43:29 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 5:43:29 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:43:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 21,601 ms
+Apr 23, 2015 5:43:51 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 5:43:51 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:44:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 20,057 ms
+Apr 23, 2015 5:44:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 5:46:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 129,035 ms
+Apr 23, 2015 5:46:20 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,237 ms
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 142 ms
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 138 ms
+Apr 23, 2015 5:46:32 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 5:47:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,753 ms
+Apr 23, 2015 5:47:06 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 5:47:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,538 ms
+Apr 23, 2015 5:47:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:47:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:47:23 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:47:23 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 234667 ms
+Apr 23, 2015 5:56:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:56:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:56:35 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:56:35 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 5:58:29 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 5:58:29 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 5:58:30 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 5:58:30 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 5:58:30 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 5:58:30 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 5:58:31 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2793 ms
+Apr 23, 2015 5:58:31 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 5:58:31 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 5:58:31 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 5:58:31 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:58:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,004 ms
+Apr 23, 2015 5:58:53 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 5:58:53 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 5:59:11 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,303 ms
+Apr 23, 2015 5:59:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:01:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 132,710 ms
+Apr 23, 2015 6:01:24 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,208 ms
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 142 ms
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 183 ms
+Apr 23, 2015 6:01:36 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:02:02 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Apr 23, 2015 6:02:02 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/share] startup failed due to previous errors
+Apr 23, 2015 6:02:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 26,167 ms
+Apr 23, 2015 6:02:02 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:02:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 19,490 ms
+Apr 23, 2015 6:02:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:02:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:02:22 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:02:22 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 231383 ms
+Apr 23, 2015 6:10:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:10:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:10:49 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:10:50 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 6:12:14 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 6:12:14 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 6:12:15 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 6:12:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:12:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:12:15 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:12:16 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2744 ms
+Apr 23, 2015 6:12:16 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 6:12:16 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 6:12:16 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 6:12:16 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:12:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 25,546 ms
+Apr 23, 2015 6:12:42 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 6:12:42 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:13:01 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 19,015 ms
+Apr 23, 2015 6:13:01 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:15:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 136,901 ms
+Apr 23, 2015 6:15:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,476 ms
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 178 ms
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 142 ms
+Apr 23, 2015 6:15:30 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:15:52 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Apr 23, 2015 6:15:52 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/share] startup failed due to previous errors
+Apr 23, 2015 6:15:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 21,788 ms
+Apr 23, 2015 6:15:52 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:16:09 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,254 ms
+Apr 23, 2015 6:16:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:16:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:16:09 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:16:09 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 233470 ms
+Apr 23, 2015 6:17:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:17:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:17:59 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:17:59 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 6:18:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 6:18:43 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 6:18:45 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 6:18:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:18:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:18:45 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:18:46 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2846 ms
+Apr 23, 2015 6:18:46 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 6:18:46 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 6:18:46 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 6:18:46 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:19:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,291 ms
+Apr 23, 2015 6:19:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 6:19:08 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:19:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,773 ms
+Apr 23, 2015 6:19:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:21:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 133,286 ms
+Apr 23, 2015 6:21:40 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,654 ms
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 205 ms
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 159 ms
+Apr 23, 2015 6:21:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:22:16 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Apr 23, 2015 6:22:16 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/share] startup failed due to previous errors
+Apr 23, 2015 6:22:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 22,709 ms
+Apr 23, 2015 6:22:16 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:22:33 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,600 ms
+Apr 23, 2015 6:22:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:22:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:22:33 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:22:33 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 227887 ms
+Apr 23, 2015 6:23:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:23:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:23:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:23:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 6:27:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 6:27:58 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 6:27:59 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 6:27:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:27:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:27:59 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:28:00 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2760 ms
+Apr 23, 2015 6:28:00 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 6:28:00 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 6:28:00 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 6:28:00 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:28:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,540 ms
+Apr 23, 2015 6:28:22 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 6:28:23 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:28:41 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,807 ms
+Apr 23, 2015 6:28:41 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 131,766 ms
+Apr 23, 2015 6:30:53 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 14,896 ms
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 194 ms
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 166 ms
+Apr 23, 2015 6:31:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:31:31 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Apr 23, 2015 6:31:31 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/share] startup failed due to previous errors
+Apr 23, 2015 6:31:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 22,919 ms
+Apr 23, 2015 6:31:31 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:31:49 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,880 ms
+Apr 23, 2015 6:31:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:31:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:31:49 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:31:49 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 229338 ms
+Apr 23, 2015 6:32:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:32:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:32:39 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:32:39 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina
+Apr 23, 2015 6:38:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 6:38:16 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 6:38:17 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 6:38:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:38:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:38:17 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:38:18 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2733 ms
+Apr 23, 2015 6:38:18 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 6:38:18 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 6:38:18 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 6:38:18 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:38:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 21,551 ms
+Apr 23, 2015 6:38:40 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 6:38:40 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:38:58 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,902 ms
+Apr 23, 2015 6:38:58 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:41:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 135,747 ms
+Apr 23, 2015 6:41:14 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,763 ms
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 156 ms
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 136 ms
+Apr 23, 2015 6:41:27 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:41:50 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Error listenerStart
+Apr 23, 2015 6:41:50 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/share] startup failed due to previous errors
+Apr 23, 2015 6:41:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 22,526 ms
+Apr 23, 2015 6:41:50 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:44:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: Loaded APR based Apache Tomcat Native library 1.1.32 using APR version 1.5.1.
+Apr 23, 2015 6:44:25 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+Apr 23, 2015 6:44:26 PM org.apache.catalina.core.AprLifecycleListener initializeSSL
+INFO: OpenSSL successfully initialized (OpenSSL 1.0.1j 15 Oct 2014)
+Apr 23, 2015 6:44:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:44:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:44:26 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:44:27 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 2740 ms
+Apr 23, 2015 6:44:27 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Catalina
+Apr 23, 2015 6:44:27 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.59
+Apr 23, 2015 6:44:27 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml
+Apr 23, 2015 6:44:27 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:44:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr.xml has finished in 22,425 ms
+Apr 23, 2015 6:44:50 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deploying configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml
+Apr 23, 2015 6:44:50 PM org.apache.catalina.startup.SetContextPropertiesRule begin
+WARNING: [SetContextPropertiesRule]{Context} Setting property 'debug' to '0' did not find a matching property.
+Apr 23, 2015 6:45:08 PM org.apache.catalina.startup.HostConfig deployDescriptor
+INFO: Deployment of configuration descriptor C:\Alfresco\tomcat\conf\Catalina\localhost\solr4.xml has finished in 18,890 ms
+Apr 23, 2015 6:45:08 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\alfresco
+Apr 23, 2015 6:47:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\alfresco has finished in 136,165 ms
+Apr 23, 2015 6:47:25 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\awe
+Apr 23, 2015 6:47:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\awe has finished in 12,738 ms
+Apr 23, 2015 6:47:37 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\host-manager
+Apr 23, 2015 6:47:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\host-manager has finished in 263 ms
+Apr 23, 2015 6:47:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\manager
+Apr 23, 2015 6:47:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\manager has finished in 158 ms
+Apr 23, 2015 6:47:38 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\share
+Apr 23, 2015 6:48:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\share has finished in 33,601 ms
+Apr 23, 2015 6:48:11 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory C:\Alfresco\tomcat\webapps\wcmqs
+Apr 23, 2015 6:48:29 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory C:\Alfresco\tomcat\webapps\wcmqs has finished in 17,486 ms
+Apr 23, 2015 6:48:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:48:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:48:29 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:48:29 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 241892 ms
+Apr 23, 2015 6:53:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-apr-8080"]
+Apr 23, 2015 6:53:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["ajp-apr-8009"]
+Apr 23, 2015 6:53:26 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8443"]
+Apr 23, 2015 6:53:26 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service Catalina

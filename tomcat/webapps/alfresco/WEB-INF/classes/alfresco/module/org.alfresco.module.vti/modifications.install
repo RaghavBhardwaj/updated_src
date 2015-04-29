@@ -1,0 +1,4 @@
+add|/WEB-INF/lib/jetty-util-6.1.26.jar
+add|/WEB-INF/lib/alfresco-spp-5.0.d.jar
+add|/WEB-INF/lib/jetty-6.1.26.jar
+add|/WEB-INF/classes/alfresco/module/org.alfresco.module.vti/module-context.xml
